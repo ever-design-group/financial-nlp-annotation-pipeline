@@ -1,1 +1,77 @@
-
+[
+  {
+    "communication_id": "GOLD-001",
+    "channel": "email",
+    "raw_text": "I have been charged twice for my credit card payment. Please reverse the duplicate charge.",
+    "annotator_scores": {
+      "expert": {"satisfaction": 2, "urgency": 3, "frustration": 3, "confusion": 1},
+      "A1": {"satisfaction": 3, "urgency": 2, "frustration": 3, "confusion": 1},
+      "A2": {"satisfaction": 2, "urgency": 3, "frustration": 2, "confusion": 1},
+      "A3": {"satisfaction": 2, "urgency": 3, "frustration": 3, "confusion": 1},
+      "A4": {"satisfaction": 2, "urgency": 4, "frustration": 4, "confusion": 1},
+      "A5": {"satisfaction": 2, "urgency": 3, "frustration": 3, "confusion": 2}
+    },
+    "intent": {"complaint": true, "query": false, "request": true, "feedback": false, "escalation": false},
+    "topic": {"billing": true, "fraud": false, "account_access": false, "product_inquiry": false, "regulatory_complaint": false}
+  },
+  {
+    "communication_id": "GOLD-002",
+    "channel": "live_chat",
+    "raw_text": "I can't login to my account. It says password wrong.",
+    "annotator_scores": {
+      "expert": {"satisfaction": 2, "urgency": 4, "frustration": 3, "confusion": 2},
+      "A1": {"satisfaction": 3, "urgency": 3, "frustration": 3, "confusion": 2},
+      "A2": {"satisfaction": 2, "urgency": 4, "frustration": 2, "confusion": 2},
+      "A3": {"satisfaction": 2, "urgency": 4, "frustration": 3, "confusion": 2},
+      "A4": {"satisfaction": 2, "urgency": 5, "frustration": 4, "confusion": 3},
+      "A5": {"satisfaction": 2, "urgency": 4, "frustration": 3, "confusion": 3}
+    },
+    "intent": {"complaint": false, "query": false, "request": true, "feedback": false, "escalation": false},
+    "topic": {"billing": false, "fraud": false, "account_access": true, "product_inquiry": false, "regulatory_complaint": false}
+  },
+  {
+    "communication_id": "GOLD-003",
+    "channel": "social_media",
+    "raw_text": "Oh great, another hidden fee. Wonderful service. #bankingfail",
+    "annotator_scores": {
+      "expert": {"satisfaction": 1, "urgency": 3, "frustration": 5, "confusion": 1},
+      "A1": {"satisfaction": 2, "urgency": 2, "frustration": 4, "confusion": 1},
+      "A2": {"satisfaction": 1, "urgency": 3, "frustration": 4, "confusion": 1},
+      "A3": {"satisfaction": 1, "urgency": 3, "frustration": 5, "confusion": 1},
+      "A4": {"satisfaction": 1, "urgency": 4, "frustration": 5, "confusion": 2},
+      "A5": {"satisfaction": 1, "urgency": 3, "frustration": 5, "confusion": 1}
+    },
+    "intent": {"complaint": true, "query": false, "request": false, "feedback": false, "escalation": false},
+    "topic": {"billing": true, "fraud": false, "account_access": false, "product_inquiry": false, "regulatory_complaint": false}
+  },
+  {
+    "communication_id": "GOLD-004",
+    "channel": "call_transcript",
+    "raw_text": "Customer: I transferred ₹50,000 but it's not showing. I need this for my daughter's college fees tomorrow.",
+    "annotator_scores": {
+      "expert": {"satisfaction": 1, "urgency": 5, "frustration": 4, "confusion": 3},
+      "A1": {"satisfaction": 2, "urgency": 4, "frustration": 3, "confusion": 3},
+      "A2": {"satisfaction": 1, "urgency": 5, "frustration": 3, "confusion": 3},
+      "A3": {"satisfaction": 1, "urgency": 5, "frustration": 4, "confusion": 3},
+      "A4": {"satisfaction": 1, "urgency": 5, "frustration": 5, "confusion": 4},
+      "A5": {"satisfaction": 1, "urgency": 5, "frustration": 4, "confusion": 4}
+    },
+    "intent": {"complaint": true, "query": false, "request": true, "feedback": false, "escalation": false},
+    "topic": {"billing": true, "fraud": false, "account_access": false, "product_inquiry": false, "regulatory_complaint": false}
+  },
+  {
+    "communication_id": "GOLD-005",
+    "channel": "email",
+    "raw_text": "Your new mobile app is fantastic! The biometric login is so smooth.",
+    "annotator_scores": {
+      "expert": {"satisfaction": 5, "urgency": 1, "frustration": 1, "confusion": 1},
+      "A1": {"satisfaction": 4, "urgency": 1, "frustration": 1, "confusion": 1},
+      "A2": {"satisfaction": 5, "urgency": 1, "frustration": 1, "confusion": 1},
+      "A3": {"satisfaction": 5, "urgency": 1, "frustration": 1, "confusion": 1},
+      "A4": {"satisfaction": 5, "urgency": 1, "frustration": 1, "confusion": 2},
+      "A5": {"satisfaction": 5, "urgency": 1, "frustration": 1, "confusion": 1}
+    },
+    "intent": {"complaint": false, "query": false, "request": false, "feedback": true, "escalation": false},
+    "topic": {"billing": false, "fraud": false, "account_access": true, "product_inquiry": false, "regulatory_complaint": false}
+  }
+]
