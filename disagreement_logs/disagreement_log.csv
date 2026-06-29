@@ -1,0 +1,43 @@
+item_id,disagreement,annotators,root_cause,resolution
+COM-042,Intent: Complaint vs. Request,A2,A4,A5,"Fix this = action-focused",Request (dominant)
+COM-087,Topic: Billing vs. Product Inquiry,A1,A3,A5,Asked about fee + interest rate,Billing (dominant)
+COM-134,Frustration: 3 vs. 5,A2,A4,Formal vs. Informal tone,4 (compromise)
+COM-178,Sarcasm: True vs. False,A4,A1,A3,"Great service in complaint",Sarcasm True (2/3)
+COM-229,Topic: Fraud vs. Account Access,All,"Unknown transaction + can't login",Both (multi-label)
+COM-276,Urgency: 2 vs. 4,A1,A5,"As soon as possible",3 (medium)
+COM-318,Intent: Escalation vs. Complaint,A2,A3,"I will complain",Escalation
+COM-357,Confusion: 1 vs. 5,A4,A5,"Technical jargon",2 (technical but understood)
+COM-401,Topic: Regulatory vs. Billing,All,"Ombudsman + fee",Both (multi-label)
+COM-448,Satisfaction: 3 vs. 1,A1,A4,"Agent was nice",2 (compromise)
+COM-012,Satisfaction: 4 vs. 2,A1,A3,"Good but slow",3 (compromise)
+COM-056,Intent: Query vs. Request,A2,A5,"Can you fix this",Request (action)
+COM-098,Frustration: 2 vs. 4,A3,A4,"Kindly look",3 (Indian context)
+COM-145,Topic: Account Access vs. Billing,A1,A4,"Password reset fee",Billing (fee)
+COM-189,Urgency: 3 vs. 5,A2,A5,"Need soon",4 (compromise)
+COM-234,Sarcasm: False vs. True,A4,A3,"Sure, whatever",Sarcasm True
+COM-278,Topic: Fraud vs. Regulatory,A2,A5,"RBI + fraud",Both (multi-label)
+COM-301,Confusion: 1 vs. 3,A5,A1,"I don't get it",3 (moderate)
+COM-345,Intent: Complaint vs. Feedback,A1,A4,"Just saying",Feedback (no action)
+COM-389,Frustration: 4 vs. 5,A3,A5,"Extremely angry",5 (extreme)
+COM-412,Topic: Product Inquiry vs. Billing,A2,A3,"Loan interest",Product Inquiry
+COM-456,Urgency: 2 vs. 4,A1,A5,"When possible",3 (compromise)
+COM-467,Satisfaction: 5 vs. 3,A4,A1,"Best service",5 (genuine)
+COM-478,Intent: Escalation vs. Query,A2,A5,"RBI rates",Query (no threat)
+COM-489,Topic: Account Access vs. Product Inquiry,A3,A4,"Mobile app login",Account Access
+COM-490,Frustration: 1 vs. 3,A1,A5,"Just asking",1 (no emotion)
+COM-491,Confusion: 4 vs. 2,A4,A5,"Mixed signals",3 (compromise)
+COM-492,Intent: Request vs. Complaint,A2,A4,"Please fix",Request
+COM-493,Topic: Billing vs. Fraud,A1,A5,"Unknown charge",Both (multi-label)
+COM-494,Urgency: 5 vs. 3,A3,A1,"Important",4 (compromise)
+COM-495,Sarcasm: True vs. False,A4,A2,"Sure, thanks",Sarcasm False (genuine thanks)
+COM-496,Satisfaction: 2 vs. 4,A1,A3,"Okay service",3 (neutral)
+COM-497,Intent: Feedback vs. Query,A4,A5,"I think... but?",Query (question)
+COM-498,Topic: Regulatory vs. Billing,A2,A3,"Ombudsman fee",Both
+COM-499,Frustration: 3 vs. 5,A1,A4,"Angry",4 (compromise)
+COM-500,Confusion: 1 vs. 3,A5,A2,"Technical",2 (mild)
+COM-013,Intent: Complaint vs. Escalation,A3,A5,"I will sue",Escalation
+COM-078,Topic: Account Access vs. Fraud,A1,A3,"Hacked login",Both
+COM-103,Urgency: 4 vs. 2,A2,A4,"ASAP",3 (compromise)
+COM-156,Sarcasm: True vs. False,A4,A1,"Great job",Sarcasm True (negative context)
+COM-267,Satisfaction: 1 vs. 3,A3,A4,"Not bad",2 (mild negative)
+COM-388,Frustration: 5 vs. 3,A5,A2,"I'm upset",4 (compromise)
