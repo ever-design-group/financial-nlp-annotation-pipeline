@@ -1,0 +1,35 @@
+{
+  "satisfaction": {
+    "krippendorff_alpha": 0.74,
+    "avg_cohen_kappa": 0.70,
+    "status": "PASS"
+  },
+  "urgency": {
+    "krippendorff_alpha": 0.70,
+    "avg_cohen_kappa": 0.67,
+    "status": "PASS"
+  },
+  "frustration": {
+    "krippendorff_alpha": 0.76,
+    "avg_cohen_kappa": 0.70,
+    "status": "PASS"
+  },
+  "confusion": {
+    "krippendorff_alpha": 0.71,
+    "avg_cohen_kappa": 0.62,
+    "status": "PASS (after remediation)"
+  },
+  "intent": {
+    "krippendorff_alpha": 0.79,
+    "avg_cohen_kappa": 0.76,
+    "status": "PASS"
+  },
+  "topic": {
+    "krippendorff_alpha": 0.83,
+    "avg_cohen_kappa": 0.80,
+    "status": "PASS"
+  },
+  "adjudication_rate": 8.4,
+  "total_items": 500,
+  "adjudicated_items": 42
+}
