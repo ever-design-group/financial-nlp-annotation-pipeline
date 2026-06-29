@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+*.egg-info/
+
+# Data
+*.csv
+*.xlsx
+!gold_standard/*.csv
+!disagreement_logs/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+*.env
+*.key
+
+# Logs
+*.log
